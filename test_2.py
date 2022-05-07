@@ -12,3 +12,23 @@ output: display percentage of grades above average
 
 
 """
+
+"""
+open file final.txt
+input grades
+iterator, accumulator = 0
+loop through grades
+    accumulator = accumulator + grades
+    iterator = iterator + 1
+output = accumulator / total score
+
+input grades > average 
+    loop through grades checking greater than average
+    count += 1
+return count * 100 / len(grades) 
+output the percentage of grades above average
+
+
+
+
+"""
