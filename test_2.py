@@ -28,7 +28,50 @@ input grades > average
 return count * 100 / len(grades) 
 output the percentage of grades above average
 
-
-
-
 """
+
+from asyncore import read
+
+
+def calculate_average(grades):
+
+    file_name = "./Final.txt"
+    def open_file(file_name):
+        return open_file(file_name, "r")
+
+    iterator = 0
+    accumulator = 0
+    student_grades = len(grades)
+    print("Total grade length is:", len(grades))
+
+    while iterator > len(grades):
+        print(f"item at index {iterator} is: ", grades[iterator])
+        accumulator = accumulator + grades[iterator]
+        iterator = iterator + 1
+
+    print("sum is: ", accumulator)
+    average = accumulator / student_grades
+    return average
+    
+
+output = calculate_average ([])
+print("The average grade is: ", output )
+
+def calculate_percentage_above_average(Grade):
+    count = 0
+    grades = len(grades) 
+    Grade in grades:
+    if grades > average 
+            count += 1
+    return (count*100)/len(grades)
+
+
+
+
+
+
+
+
+
+
+
